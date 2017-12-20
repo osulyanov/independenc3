@@ -1,5 +1,5 @@
 class Vertical < ApplicationRecord
-  has_one :category, dependent: :nullify
+  has_many :categories, dependent: :nullify
 
   validates :name, presence: true
 end

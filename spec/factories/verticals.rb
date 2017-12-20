@@ -2,6 +2,6 @@ FactoryBot.define do
   factory :vertical do
     name { Faker::Hipster.word.capitalize }
 
-    association :category
+    association :categories
   end
 end
