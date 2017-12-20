@@ -12,5 +12,6 @@
 /tmp/*
 !/log/.keep
 !/tmp/.keep
+/spec/state.txt
 
 .byebug_history
