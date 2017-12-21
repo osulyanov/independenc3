@@ -3,6 +3,7 @@ Rails.application.routes.draw do
     namespace :v1 do
       resources :user_token, only: :create
       resources :verticals
+      resources :categories
     end
   end
 end

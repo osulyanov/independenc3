@@ -4,9 +4,9 @@ FactoryBot.define do
 
     association :vertical
 
-    status :inactive
+    state :inactive
     trait :active do
-      status :active
+      state :active
     end
   end
 end
