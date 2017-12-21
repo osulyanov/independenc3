@@ -4,6 +4,7 @@ Rails.application.routes.draw do
       resources :user_token, only: :create
       resources :verticals
       resources :categories
+      resources :courses
     end
   end
 end

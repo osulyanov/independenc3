@@ -5,9 +5,9 @@ FactoryBot.define do
 
     association :category
 
-    status :inactive
+    state :inactive
     trait :active do
-      status :active
+      state :active
     end
   end
 end
