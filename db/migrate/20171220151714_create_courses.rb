@@ -3,7 +3,7 @@ class CreateCourses < ActiveRecord::Migration[5.1]
     create_table :courses do |t|
       t.string :name
       t.string :author
-      t.references :category
+      t.references :category, index: true
       t.integer :state, null: false, default: 0
 
       t.timestamps
