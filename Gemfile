@@ -6,6 +6,7 @@ git_source(:github) do |repo_name|
 end
 
 gem 'bcrypt', '~> 3.1.7'
+gem 'inherited_resources', github: 'activeadmin/inherited_resources'
 gem 'jbuilder', '~> 2.5'
 gem 'knock'
 gem 'pg', '~> 0.18'

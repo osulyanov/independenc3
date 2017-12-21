@@ -3,7 +3,6 @@ FactoryBot.define do
     name { Faker::Hipster.word.capitalize }
 
     association :vertical
-    association :courses
 
     status :inactive
     trait :active do
